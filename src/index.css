@@ -1,0 +1,17 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.list{
+    
+    margin: 5rem auto;
+    display: grid;
+}
+
+@media screen and (min-width:786px) {
+    .list{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
